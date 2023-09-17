@@ -9,7 +9,6 @@ import io.cucumber.java.en.*;
 
 public class HomePageStepDef {
 	
-
 	@When("Utilisateur clique sur le {string}")
 	public void utilisateur_clique_sur_le(String menu) {
 		HomePage home = new HomePage();

@@ -21,7 +21,7 @@ public class HomePage {
 	public HomePage() {
 		PageFactory.initElements(Config.driver, this);
 	}
-
+	
 	public void clickOnMenuByName(String NameMenu) {
 		close.click();
 		try {
